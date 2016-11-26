@@ -35,6 +35,44 @@
 
 
 /*JUMBOTRON*/
+header {
+  min-height: 555px;
+  background: url(../assets/images/header-bg-only.jpg) top center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/*VIDEOS*/
+#players {
+  background-color: rgba(0, 0, 0, 0.6);
+  padding-top: 21px;
+  padding-bottom: 7px;
+  min-height: 230px;
+}
+
+.video-part {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 252px;
+  height: 160px;
+  z-index: -9999;
+}
+
+.arrow-left {
+  width: 8%;
+  float: left;
+}
+
+.arrow-right {
+  width: 8%;
+  float: right;
+}
+
+.arrow {
+  width: 25;
+  height: 25;
+}
 
 
 /*DOWNLOAD*/

@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <title>WOW Sports - The Ultimate Sports Video Championships</title>
   <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="bower_components/owl.carousel/dist/css/owl.carousel.min.css">
   <link rel="stylesheet" href="bower_components/font-awesome/css/font-awesome.min.css">
   <link rel="stylesheet" href="css/styles.css">
 </head>
@@ -14,7 +15,40 @@
 <!-- JUMBROTRON -->
   <header>
     <div class="container heading"></div>
-    <div class="container players"></div>
+    <div id="players"></div>
+      <div class="container">
+        <div class="row">
+
+          <!-- Left Arrow -->
+          <div class="arrow-left">
+            <img src="assets/images/arrow_left.png" class="arrow">
+          </div>
+
+          <!-- Owl Carousel -->
+          <div class="players-content owl-carousel">
+            <div class="item">
+              <div class="player">
+                <div class="video-part">
+                  <img src="assets/videos/180.gif">
+                </div>
+                <div align="left" class="text-part">
+                  <span class="player-portrait" style="background-image: url('https://prod-us-01.wowjust.watch/res/images/users/facebook_user__239.png');" ></span>
+                  <span class="player-name">
+                    <h4>Matthew Bassingthwaighte</h4>
+                    <p>BMX</p>
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Right Arrow -->
+          <div class="arrow-right">
+            <img src="assets/images/arrow_right.png" class="arrow">
+          </div>
+
+        </div>
+      </div>
   </header>
 
 <!-- DOWNLOAD -->
