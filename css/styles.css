@@ -144,3 +144,37 @@ img.arrow2 {
   border-bottom: 3px solid #ba0d27;
 
 }
+
+/*FOOTER*/
+
+footer {
+  background-color: #cd102c;
+  padding: 17px 0;
+}
+
+footer > ul {
+  list-style: none;
+  text-align: center;
+  margin: 0;
+}
+
+footer > ul > li {
+  display: inline-block;
+  margin: 0 15px;
+}
+
+footer > ul > li > a {
+  color: #fff;
+  font-size: 11px;
+}
+
+footer > ul > li > a:hover {
+  text-decoration: none;
+  color: #999;
+}
+
+.footing {
+  min-height: 60px;
+  background: url(../assets/images/bg_bottom.jpg) center no-repeat;
+  background-size: cover;
+}
