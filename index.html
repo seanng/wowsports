@@ -12,43 +12,70 @@
 <!-- NAVBAR -->
   <div class="nav-container"></div>
 
-<!-- JUMBROTRON -->
+<!-- COVER SECTION -->
   <header>
-    <div class="container heading"></div>
-    <div id="players"></div>
+
+  <!-- A) Heading -->
+    <div class="container heading">
+      <div class="row">
+        <div class="col-xs-4 text-center" id="heading-iphone">
+          <video src="assets/videos/finalized_webvideo.mp4" autoplay="autoplay" loop="loop"></video>
+        </div>
+        <div class="col-xs-8 text-center" id="heading-content">
+          <img src="assets/images/header-wow-top-of-title.png" alt="">
+          <h3>THE ULTIMATE SPORTS VIDEO CHAMPIONSHIPS</h3>
+          <p>
+            Join now to showcase your talents and see how you match up against the world.
+          </p>
+          <div class="text-center">
+            <a id="home-download-button-ios" href="#" class="red-button">
+              <i class="fa fa-apple" aria-hidden="true"></i>
+              &nbsp;
+              iOS Version
+            </a>
+            <a id="home-download-button-android" href="#" class="red-button">
+              <i class="fa fa-android" aria-hidden="true"></i>
+              &nbsp;
+              Android Version
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+  <!-- B) Players DIV -->
+    <div id="players">
       <div class="container">
         <div class="row">
 
           <!-- Left Arrow -->
-          <div class="arrow-left">
-            <img src="assets/images/arrow_left.png" class="arrow">
+          <div class="arrow-left text-center">
+            <img src="assets/images/arrow_left.png">
           </div>
 
-          <!-- Owl Carousel -->
-          <div class="players-content owl-carousel">
+          <!-- Carousel Content -->
+          <div id="players-content" class="text-center owl-carousel">
             <div class="item">
               <div class="player">
-                <div class="video-part">
+                <div class="player-video">
                   <img src="assets/videos/180.gif">
                 </div>
-                <div align="left" class="text-part">
-                  <span class="player-portrait" style="background-image: url('https://prod-us-01.wowjust.watch/res/images/users/facebook_user__239.png');" ></span>
-                  <span class="player-name">
-                    <h4>Matthew Bassingthwaighte</h4>
-                    <p>BMX</p>
-                  </span>
+                <div align="left" class="player-text">
+
                 </div>
               </div>
             </div>
           </div>
 
           <!-- Right Arrow -->
-          <div class="arrow-right">
-            <img src="assets/images/arrow_right.png" class="arrow">
+          <div class="arrow-right text-center">
+            <img src="assets/images/arrow_right.png">
           </div>
 
         </div>
       </div>
+    </div>
   </header>
 
 <!-- DOWNLOAD -->
@@ -61,12 +88,12 @@
           </p>
         </div>
         <div class="col-xs-12 col-md-5 text-center">
-          <a id="home-download-button-ios" href="https://itunes.apple.com/app/wow-just-watch/id1109718207?mt=8" class="red-button">
+          <a id="home-download-button-ios" href="#" class="red-button">
             <i class="fa fa-apple" aria-hidden="true"></i>
             &nbsp;
             iOS Version
           </a>
-          <a id="home-download-button-android" href="https://play.google.com/store/apps/details?id=com.wow.justwatch" class="red-button">
+          <a id="home-download-button-android" href="#" class="red-button">
             <i class="fa fa-android" aria-hidden="true"></i>
             &nbsp;
             Android Version
@@ -244,5 +271,13 @@
 
   <div class="footing">
   </div>
+
+  <!-- SCRIPTS -->
+
+  <script src="bower_components/jquery/dist/jquery.min.js"></script>
+  <script src="bower_components/owl.carousel/dist/assets/owl.carousel.min.js"></script>
+  <script src="src/playersCarousel.js"></script>
+  <script src="src/scrollEffect.js"></script>
+
 </body>
 </html>
