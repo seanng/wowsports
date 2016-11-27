@@ -58,16 +58,21 @@ nav a {
 }
 
 .nav>li>a.nav-link {
-  padding: 15px 0 0 0;
+  padding: 20px 0 0 0;
   margin-right: 40px;
 }
 
 .nav>li>a.nav-link:hover {
   background: none;
-  padding: 15px 0 0 0;
   text-decoration: none;
   color: #999;
   border-bottom: 1px solid red;
+}
+
+.nav>li>a.nav-link:focus {
+  background: none;
+  text-decoration: none;
+  color: white;
 }
 
 /*HEADING*/
