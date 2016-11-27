@@ -32,7 +32,42 @@
 }
 
 /*NAVBAR*/
+nav {
+  padding: 15px;
+}
 
+.navbar-brand {
+  background-image: url(../assets/images/logo_white.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 80px;
+  height: 60px;
+}
+
+.navbar-brand:hover {
+  opacity: 0.5;
+}
+
+nav a {
+  color: white;
+}
+
+.navbar-right {
+  /*padding-right: 40px;*/
+}
+
+.nav>li>a.nav-link {
+  padding: 15px 0 0 0;
+  margin-right: 40px;
+}
+
+.nav>li>a.nav-link:hover {
+  background: none;
+  padding: 15px 0 0 0;
+  text-decoration: none;
+  color: #999;
+  border-bottom: 1px solid red;
+}
 
 /*JUMBOTRON*/
 header {
@@ -98,13 +133,13 @@ header {
 .arrow-left {
   width: 8%;
   float: left;
-  padding-top: 90px;
+  padding-top: 80px;
 }
 
 .arrow-right {
   width: 8%;
   float: right;
-  padding-top: 90px;
+  padding-top: 80px;
 }
 
 .arrow {
