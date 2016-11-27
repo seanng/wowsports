@@ -57,10 +57,6 @@ nav a {
   color: white;
 }
 
-.navbar-right {
-  /*padding-right: 40px;*/
-}
-
 .nav>li>a.nav-link {
   padding: 15px 0 0 0;
   margin-right: 40px;
@@ -74,7 +70,7 @@ nav a {
   border-bottom: 1px solid red;
 }
 
-/*JUMBOTRON*/
+/*HEADING*/
 header {
   min-height: 555px;
   background: url(../assets/images/header-bg-only.jpg) top center;
@@ -84,7 +80,6 @@ header {
   color: white;
 }
 
-/*HEADING*/
 .heading {
   height: 403px;
 }
@@ -92,7 +87,7 @@ header {
 .heading > .row {
   height: 100%;
 }
-  /*iphone*/
+/*iphone*/
   #heading-iphone {
     background: url(../assets/images/iphone_main.png) center no-repeat;
     background-size: 221px 403px;
@@ -105,7 +100,7 @@ header {
     margin-right: 1px;
   }
 
-  /*heading-content*/
+/*heading-content*/
   #heading-content {
     height: 100%;
     padding-right: 15%;
@@ -125,8 +120,6 @@ header {
     margin-top: 45px;
   }
 
-
-
 /*PLAYERS*/
 #players {
   background-color: rgba(0, 0, 0, 0.6);
@@ -134,83 +127,79 @@ header {
   padding-bottom: 7px;
   min-height: 230px;
 }
-
-.arrow-left {
-  width: 8%;
-  float: left;
-  padding-top: 80px;
-}
-
-.arrow-right {
-  width: 8%;
-  float: right;
-  padding-top: 80px;
-}
-
-.arrow {
-  width: 25;
-  height: 25;
-}
-
-#players-content {
-  height: 160px;
-  margin-top: 8px;
-  width: 84%;
-  float: left;
-}
-
-.player {
-  /*width: 250px;*/
-  height: 160px;
-  /*width: auto;*/
-  margin-left: 8px;
-  margin-right: 8px;
-}
-
-.player-text {
-  position: absolute;
-  bottom: 15px;
-  left: 20px;
-  width: 90%;
-  z-index: 1;
-  text-align: left;
-}
-
-.player-video {
-  height: 100%;
-  background: black;
-}
-
-.player-video > img {
-  opacity: 0.6;
-}
-
-  /*player avatars*/
-  .player-text > img.avatar {
-    height: 40px;
-    width: 40px;
-    border-radius: 20px;
+/*arrows*/
+  .arrow-left {
+    width: 8%;
     float: left;
-    border: 1px solid white;
+    padding-top: 80px;
   }
 
-  .player-text > div {
+  .arrow-right {
+    width: 8%;
+    float: right;
+    padding-top: 80px;
+  }
+
+  .arrow {
+    width: 25;
+    height: 25;
+  }
+
+/*content*/
+  #players-content {
+    height: 160px;
+    margin-top: 8px;
+    width: 84%;
+    float: left;
+  }
+
+  .player {
+    height: 160px;
+    margin-left: 8px;
+    margin-right: 8px;
+  }
+
+  .player-text {
     position: absolute;
-    left: 52px;
+    bottom: 15px;
+    left: 20px;
+    width: 90%;
+    z-index: 1;
+    text-align: left;
   }
 
-  .player-text > div > h6 {
-    font-size: 14px;
-    margin: 4px 0;
+  .player-video {
+    height: 100%;
+    background: black;
   }
 
-  .player-text > div > p {
-    font-size: 12px;
-    text-transform: uppercase;
+  .player-video > img {
+    opacity: 0.6;
   }
 
+  /*avatars*/
+    .player-text > img.avatar {
+      height: 40px;
+      width: 40px;
+      border-radius: 20px;
+      float: left;
+      border: 1px solid white;
+    }
 
+    .player-text > div {
+      position: absolute;
+      left: 52px;
+    }
 
+    .player-text > div > h6 {
+      font-size: 14px;
+      margin: 4px 0;
+    }
+
+    .player-text > div > p {
+      font-size: 12px;
+      text-transform: uppercase;
+    }
 
 /*DOWNLOAD*/
 .download {
@@ -286,7 +275,6 @@ img.arrow2 {
   background-size: cover;
 }
 
-
 /*CONTACT*/
 
 .contact {
@@ -321,7 +309,6 @@ img.arrow2 {
 }
 
 /*FOOTER*/
-
 footer {
   background-color: #cd102c;
   padding: 17px 0;
